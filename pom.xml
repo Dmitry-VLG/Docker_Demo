@@ -3,8 +3,8 @@
     POM (Project Object Model) — файл конфигурации Maven.
     Описывает зависимости, плагины и параметры сборки проекта.
 
-    Автор: Дмитрий К.
-    Дата создания: декабрь 2024
+    Автор: Дмитрий Кобзев.
+    Дата создания: декабрь 2025
     Java версия: 21
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -14,10 +14,6 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <!--
-        PARENT: Spring Boot 3.2+ отлично поддерживает Java 21
-        Версия 3.2.0+ имеет полную поддержку виртуальных потоков и других фич Java 21
-    -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -34,9 +30,6 @@
     <description>Демонстрационное Spring Boot приложение для изучения Docker (JDK 21)</description>
 
     <properties>
-        <!-- ═══════════════════════════════════════════════════════════════ -->
-        <!-- ИЗМЕНЕНО: Java 21 вместо 17                                     -->
-        <!-- ═══════════════════════════════════════════════════════════════ -->
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
