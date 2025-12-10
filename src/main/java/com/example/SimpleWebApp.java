@@ -56,7 +56,7 @@ public class SimpleWebApp {
     /**
      * Имя разработчика
      */
-    private static final String DEVELOPER_NAME = "Дмитрий К.";
+    private static final String DEVELOPER_NAME = "Дмитрий Кобзев.";
 
     /**
      * Формат даты и времени для отображения
